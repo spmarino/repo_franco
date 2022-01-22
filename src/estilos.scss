@@ -1,0 +1,258 @@
+//Body
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(223, 221, 221);
+}
+html, body, #root {
+    height: 100vh;
+}
+#root {
+    display:flex;
+    flex-direction: column;
+}
+
+// Header
+header {
+    background-color: rgb(137, 238, 146);
+}
+// Nav
+nav {
+    display: flex;
+}
+// Logo
+#divLogo{
+    padding: 3px;
+    margin: 3px;
+}
+// TituloLogo
+#divTituloLogo{
+    text-decoration: none !important;
+}
+.tituloLogo{
+    color: rgb(86, 226, 98);
+    font-size: 25px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+.tituloLogo:hover{
+    color: white;
+    text-decoration: none;
+}
+img {
+    height: 60px;
+    width: 60px;
+}
+//Icono Carrito
+.material-icons {
+    color: rgb(36, 187, 48) ;
+    margin-top: 30px;
+    margin-left: 480px;
+}
+.material-icons:hover {
+    color: white;
+}
+//Categorias
+#divDeCategorias{
+    margin-top: 60px;
+    margin-left: 250px;
+    color: rgb(86, 226, 98) ;
+    text-decoration: none;
+}
+.categoria1 {
+    margin-right: 100px;
+    color: rgb(36, 187, 48) ;
+    text-decoration: none;
+}
+.categoria2 {
+    color: rgb(36, 187, 48) ;
+    text-decoration: none;
+}
+.categoria1:hover {
+    margin-right: 100px;
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+}
+.categoria2:hover {
+    color: rgb(255, 255, 255) ;
+    text-decoration: none;
+}
+// Banner 
+#imagenBanner {
+    width: 95%;
+    height: 450px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#tituloBanner{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+// Main
+//Item
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 310px;
+    max-height: 450px;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    
+    img {
+        height: 250px;
+        width: 250px;
+    }
+    h2 {
+        visibility: hidden;
+        text-align: center;
+        font-size: 25px;
+        background-color: white;
+    }
+    p{
+        font-size: 25px;
+        margin-right: 220px;
+        background-color: white;
+    }
+    .botonItem{
+        background-color: rgb(86, 226, 98);
+        border-color: rgb(86, 226, 98);
+        width: 100%;
+    }
+    .botonItem:hover{
+        background-color:rgb(55, 236, 67)
+    }
+}
+//Item Detail
+.itemDetail{
+    margin-top: 150px;
+    display: flex;
+}
+.divImagenDetail{
+    background-color: rgb(223, 221, 221);
+
+}
+.imagenDetail{
+    height: 450px;
+    width: 400px;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+.descripcionDetail{
+    h2{
+        color: blue;
+        text-align: center;
+    }
+    h4{
+        margin-top: 50px;
+        font-size: 20px;
+        text-align: center;
+    }
+    p{
+        margin-top: 100px;
+        font-size: 50px;
+        text-align: center;
+    }
+}
+// Contador
+#contador {
+display: flex;
+p{
+    font-size: 30px;
+    padding: 5px;
+    margin: 5px;
+    margin-top:40px;
+}
+}
+// Botones Contador
+button {
+    margin-top:50px;
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+}
+#botonMas {
+    background-color: green;
+    margin-left: 150px;
+}
+#botonMenos {
+    background-color: red;
+}
+#botonComprar {
+    background-color: blue;
+    margin-left: 100px;
+    width: 250px;
+    
+}
+// Footer 
+footer {
+    display: flex;
+    justify-content: center;
+    background-color:rgb(86, 226, 98);
+    p{
+        color: white;
+        background-color:rgb(86, 226, 98);
+    }
+}
+
+// CART
+
+#CartItem {
+    display: flex;
+    padding: 50px;
+    h1{
+        max-width: 10px;
+        font-size: 15px;
+        margin-right: 300px;
+    }
+    p {
+
+        margin-right: 300px;
+    }
+    button {
+        margin: 0;
+        background-color: red;
+        width: 100%;
+    }
+}
+
+.linkIrAlCarrito{
+    text-align: center;
+}
+.linkIrAlCarrito:hover{
+    text-align: center;
+}
+.clearButton {
+    width: 100px;
+    background-color: blue;
+    margin-left: 550px;
+    margin-bottom: 150px;
+}
+.finishButton {
+    width: 150px;
+    background-color: rgb(35, 236, 62);
+    margin-left: 550px;
+    margin-bottom: 150px;
+}
+
+.noHayProductos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 38%;
+    margin-top: 50px;
+}
+
+.linkNoHayProductos {
+    margin-left: 115px;
+    margin-top: 150px;
+    margin-bottom: 190px;
+}
